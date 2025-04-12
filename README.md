@@ -22,5 +22,5 @@ mkdir ~/Apps/Alacritty && cp -r target/release/* ~/Apps/Alacritty && cd .. && rm
 ```
 change default shell
 ```
-sudo chsh -s /usr/bin/zsh
+sudo chsh -s /usr/bin/zsh $USER
 ```
