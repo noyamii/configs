@@ -1,0 +1,6 @@
+[window]
+opacity 	= 0.85
+startup_mode 	= "Maximized"
+decorations 	= "None"
+[terminal]
+shell = { program = "/bin/zsh", args = ["-c", "tmux attach || tmux new-session -s main"] }
